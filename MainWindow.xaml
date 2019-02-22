@@ -1,0 +1,109 @@
+﻿<Window x:Class="_312576FirstProjectV2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_312576FirstProjectV2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400.6" Width="800">
+    <ScrollViewer ScrollViewer.CanContentScroll="True">
+        <Grid>
+            <StackPanel Margin="0,0,0,-389">
+                <TextBlock Text="Mr. Mctavish's New Computer&#x0a;"/>
+                <TextBlock Text="CPU:" FontSize="16"/>
+                <TextBlock Text="Intel Core i5-8600 3.1 GHz 6-Core Processor"/>
+                <Image Source="http://images.highspeedbackbone.net/SkuImages/gallery/large/40980588_gallery01_gso.jpg" Height="188" Margin="0,0,572,0"/>
+                <TextBlock Text="Price:$339.99"/>
+                <TextBlock>           
+                    <Hyperlink NavigateUri="https://www.amazon.ca/Intel-i5-8600K-Desktop-Processor-Unlocked/dp/B0759FKH8K/ref=sr_1_3?keywords=Intel+Core+i5-8600;qid=1550686778;s=gateway;sr=8-3" RequestNavigate="Motherboard_RequestNavigate">
+                        LinkForCPU
+                     </Hyperlink>
+                </TextBlock>
+                <TextBlock Text="The Intel Core i5 is great for your needs and pricerange.&#x0a;"/>
+                <TextBlock Text="Motherboard:" FontSize="16"/>
+                <TextBlock Text="MSI ATX Motherboard Motherboards Z370-A PRO"/>
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/816dRw98xoL._SL1500_.jpg" Height="207" Margin="0,0,492,0"/>
+                <TextBlock Text="Price:$139.99"/>
+                <TextBlock>           
+                    <Hyperlink NavigateUri="https://www.amazon.ca/MSI-Motherboard-Motherboards-Z370-PRO/dp/B075GN9YC4/" RequestNavigate="Motherboard_RequestNavigate">
+                        LinkForMotherboard
+                     </Hyperlink>
+                </TextBlock>
+                <TextBlock Text="The MSI ATX motherboard has the reqiured ports for your needs. The price is reasonable.&#x0a;"/>
+                <TextBlock Text="CPU cooler:" FontSize="16"/>
+                <TextBlock Text="Cooler Master Hyper 212 EVO"/>
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/81c-RAt5Y9L._SL1500_.jpg" Height="244" Margin="0,0,562,0"/>
+                <TextBlock Text="Price:$47.99"/>
+                <TextBlock>
+                    <Hyperlink NavigateUri="https://www.amazon.ca/Cooler-Master-Hyper-212-RR-212E-20PK-R2/dp/B005O65JXI" RequestNavigate="Hyperlink_RequestNavigate_1">
+                        LinkForCPUCooler
+                    </Hyperlink>
+                </TextBlock>
+                <TextBlock Text="The cooler will keep your CPU in optimal preformance.&#x0a;"/>
+                <TextBlock Text="RAM:" FontSize="16"/>
+                <TextBlock Text="Timetec Hynix IC 16GB DDR4 2666MHz PC4-21300 "/>
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/712Fw52dpuL._SL1500_.jpg" Height="208" Margin="0,0,456,0"/>
+                <TextBlock Text="Price:$129.99"/>
+                <TextBlock>
+                    <Hyperlink NavigateUri="https://www.amazon.ca/Seagate-BarraCuda-3-5-Inch-Internal-ST2000DM006/dp/B01IEKG402/" RequestNavigate="Hyperlink_RequestNavigate_2">
+                        LinkForRAM
+                    </Hyperlink>
+                </TextBlock>
+                <TextBlock Text="RAM with enough storage to run your common applications.&#x0a;"/>
+                <TextBlock Text="Disk drive" FontSize="16"/>
+                <TextBlock Text="Seagate BarraCuda 2TB"/>
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/81orX2EoWDL._SL1500_.jpg" Height="217" Margin="0,0,591,0"/>
+                <TextBlock Text="Price:$69.99"/>
+                <TextBlock>
+                    <Hyperlink NavigateUri="https://www.amazon.ca/Seagate-BarraCuda-3-5-Inch-Internal-ST2000DM006/" RequestNavigate="Hyperlink_RequestNavigate_3">
+                        LinkForDiskDrive
+                    </Hyperlink>
+                </TextBlock>
+                <TextBlock Text="Disk drive that compatible with your motherboard and is not too expensive.&#x0a;"/>
+                <TextBlock Text="Case:" FontSize="16"/>
+                <TextBlock Text="Plastic Mid Tower ATX Case"/>
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/91Mg11SoZ0L._SL1500_.jpg" Height="273" Margin="0,0,519,0"/>
+                <TextBlock Text="Price:$129.99"/>
+                <TextBlock>
+                    <Hyperlink NavigateUri="https://www.amazon.ca/Phanteks-PH-ES515PTG_BK-Tempered-Plastic-Chassis/dp/B01LRVHH6K" RequestNavigate="Hyperlink_RequestNavigate_4">
+                        LinkForCase
+                    </Hyperlink>
+                </TextBlock>
+                <TextBlock Text="Case that is cheap and quality fits your motherboard.&#x0a;"/>
+                <TextBlock Text="Power Supply:" FontSize="16"/>
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/51sqCtW0duL.jpg" Height="173" Margin="0,0,481,0"/>
+                <TextBlock Text="Price:$89.99"/>
+                <TextBlock>
+                    <Hyperlink NavigateUri="https://www.amazon.ca/Corsair-Semi-Modular-CX550M-Supply-CP-9020102-NA/dp/B01B72W0A2/" RequestNavigate="Hyperlink_RequestNavigate_5">
+                        LinkForPowerSupply
+                    </Hyperlink>
+                </TextBlock>
+                <TextBlock Text="Good power supply will not fry your circuts and is not expensive.&#x0a;"/>
+                <TextBlock Text="Graphics Card:" FontSize="16"/>
+                <TextBlock Text="MSI RX 550 AERO ITX"/>
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/71gnHDwrsjL._SL1500_.jpg" Height="237" Margin="0,0,492,0"/>
+                <TextBlock Text="Price:$184.99"/>
+                <TextBlock>
+                    <Hyperlink NavigateUri="https://www.amazon.ca/Radeon-RX-580-8G-V1/dp/B071L1VF57/ref=asc_df_B078Q78L93/" RequestNavigate="Hyperlink_RequestNavigate_6">
+                        LinkForGPU
+                    </Hyperlink>
+                </TextBlock>
+                <TextBlock Text="GPU good for all around use not designed for gaming.&#x0a;" />
+                <TextBlock Text="Optical Drive:" FontSize="16"/>
+                <TextBlock Text="LG Electronics 14x SATA"/>
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/31jYc9cXEmL.jpg" Height="252" Margin="0,0,456,0"/>
+                <TextBlock Text="Price:$54.93"/>
+                <TextBlock>
+                    <Hyperlink NavigateUri="https://www.amazon.com/dp/B007VPGL5U/?tag=pcpapi-20" RequestNavigate="Hyperlink_RequestNavigate_7">
+                        LinkForOpticalDrive
+                    </Hyperlink>
+                </TextBlock>
+                <TextBlock Text="Optical drive compatible with case.&#x0a;"/>
+                <TextBlock Text="Total Cost:$1187.99"/>
+                <TextBlock Text="PARAGRAH NEED TO DOOOO"/>
+                <TextBlock Text="&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;&#x0a;"/>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Window>
+
