@@ -1,6 +1,6 @@
 ﻿/*David Laughton
  * Febuary Tuesday 26th 2019
- * Computer parts project
+ * Computer parts project hyperlinks to https://www.newegg.ca
  */
 
 using System;
